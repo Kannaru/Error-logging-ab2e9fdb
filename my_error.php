@@ -9,9 +9,9 @@
 <?php
 countDown(11);
 
-function countDown($argument) {
+function countDown($argument){
     try {
-        if($argument > 10){
+        if($argument > 10) {
             throw new Exception($foutmelding);
         }
     }catch(Exception $argument){
