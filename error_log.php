@@ -11,7 +11,7 @@ countDown(1234);
 
 function countDown($argument){
     try {
-        if($argument > 10){
+        if($argument > 10) {
             throw new Exception("er is");
         }
     }catch(Exception $argument){
