@@ -7,15 +7,15 @@
 </head>
 <body>
 <?php
-countDown(11);
+countDown(1234);
 
 function countDown($argument){
     try {
         if($argument > 10){
-            throw new Exception($foutmelding);
+            throw new Exception("er is");
         }
     }catch(Exception $argument){
-        error_log("Er is iets fout gegaan", 0);
+        echo(error_log("Er is iets fout gegaan" . PHP_EOL, 3, "error.log"));
     }
 
 }
